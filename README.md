@@ -5,8 +5,6 @@ Personal repository for projects, case studies, and exercises completed during t
 
 ├── Mini-projects/       # Guided mini projects
 
-├── Case-studies/        # Business case studies 
-
 ├── Capstone/            # Capstone projects
 
 └── Notebooks/           # Exploratory notebooks and exercises
