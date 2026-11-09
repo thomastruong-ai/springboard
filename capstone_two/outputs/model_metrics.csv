@@ -1,0 +1,5 @@
+model,best_hyperparameters,cv_pr_auc,test_pr_auc,test_roc_auc,test_accuracy,test_recall_fail,test_precision_fail,test_f1_fail,tp,fp,fn,tn,final_model
+Logistic Regression,"L1 penalty, C=1, SelectKBest k=50",0.182,0.166,0.574,0.828,0.294,0.106,0.156,5,42,12,255,yes
+LightGBM,"100 trees, learning_rate=0.03, num_leaves=8, min_child_samples=20, colsample_bytree=0.8, reg_lambda=5",0.247,0.078,0.580,0.930,0.000,0.000,0.000,0,5,17,292,no
+Random Forest,"500 trees, max_depth=8, max_features=0.3, max_samples=0.8, min_samples_leaf=4, min_samples_split=13",0.229,0.083,0.605,0.946,0.000,0.000,0.000,0,0,17,297,no
+Random baseline,n/a,n/a,0.054,0.500,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,no
